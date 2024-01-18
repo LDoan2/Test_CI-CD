@@ -89,10 +89,21 @@ jobs:
     - name: Install Google Cloud Storage
       run: composer require google/cloud-storage
 
+    - name: Code Coverage Summary
+      uses: irongut/CodeCoverageSummary@v1.3.0
+            
+
     # testing
     - name: Run unit tests
       run: ../vendor/bin/phpunit --no-coverage
       working-directory: tst
+
+    - name: Add Coverage PR Comment
+      uses: marocchino/sticky-pull-request-comment@v2
+      if: github.event_name == 'pull_request'
+      with:
+        recreate: true
+        path: code-coverage-results.md
 
   Mocha:
     runs-on: ubuntu-latest
