@@ -3,7 +3,7 @@
         'name' => 'privatebin/privatebin',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'b7bc214ad4e0c0a1fc105f3b6dddd94997b9e2f6',
+        'reference' => 'e519d9f075d7d69ac750f5d40dbc92cc88fd9532',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'doctrine/instantiator' => array(
-            'pretty_version' => '2.0.0',
-            'version' => '2.0.0.0',
-            'reference' => 'c6222283fa3f4ac679f8b9ced9a4e23f163e80d0',
+            'pretty_version' => '1.5.0',
+            'version' => '1.5.0.0',
+            'reference' => '0a0fa9780f5d4e507415a065172d26a98d02047b',
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/instantiator',
             'aliases' => array(),
@@ -47,9 +47,9 @@
             'dev_requirement' => true,
         ),
         'nikic/php-parser' => array(
-            'pretty_version' => 'v5.0.0',
-            'version' => '5.0.0.0',
-            'reference' => '4a21235f7e56e713259a6f76bf4b5ea08502b9dc',
+            'pretty_version' => 'v4.18.0',
+            'version' => '4.18.0.0',
+            'reference' => '1bcbb2179f97633e98bbbc87044ee2611c7d7999',
             'type' => 'library',
             'install_path' => __DIR__ . '/../nikic/php-parser',
             'aliases' => array(),
@@ -130,7 +130,7 @@
         'privatebin/privatebin' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'b7bc214ad4e0c0a1fc105f3b6dddd94997b9e2f6',
+            'reference' => 'e519d9f075d7d69ac750f5d40dbc92cc88fd9532',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
