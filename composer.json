@@ -34,7 +34,7 @@
 		"aws/aws-sdk-php" : "3.275.1"
 	},
 	"require-dev" : {
-		"phpunit/phpunit" : "9.6.11"
+		"phpunit/phpunit" : "10.5.8"
 	},
 	"autoload" : {
 		"psr-4" : {
