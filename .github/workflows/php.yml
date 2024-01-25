@@ -55,6 +55,9 @@ jobs:
       run: ../vendor/bin/phpunit --coverage-cobertura=my-cobertura-coverage.xml
       working-directory: tst
 
+    - name: php cs
+      run: php phpcs.phar . --colors
+
     - name: Code Coverage Summary Report
       uses: irongut/CodeCoverageSummary@v1.3.0
       with:
