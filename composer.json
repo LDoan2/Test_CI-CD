@@ -49,10 +49,10 @@
 		"platform": {
 			"php": "7.3"
 		}
-	}
-    {
+	},
+    
     "require-dev": {
         "squizlabs/php_codesniffer": "3.*"
     }
-}
+
 }
